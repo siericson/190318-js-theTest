@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example 1 - js review</title>
+
+   <script>
+       document.write('Good morning world!');// method
+       document.bgColor='skyblue'; // property
+       //window.alert('You are on my site'); // method
+    </script>
+    
+</head>
+<body> 
+    <h1>Hello there</h1>
+    <a href="#" onClick='alert("You clicked")'>click me</a>
+    <h3 id="ex">Hover on me</h3>
+    //<button>New window</button>
+    
+   <script>
+        var subHead = document.querySelector('h3');
+       //var subHead = document.getElementById('ex');
+       subHead.addEventListener('mouseenter', function(){alert('you hovered');}, false);
+
+       
+       // basic function that uses a variable
+       //var myMsg = document.createTextNode('Hi there, today is Monday');
+       //function myFunction() {
+           //document.write(myMsg);
+           //document.body.innerHTML = '<p class="whater">'+myMsg+'</p>';
+           //document.body.childNodes[1].bgColor = '#ccc;
+           
+           //document.querySelector('.whatever').style.backgroundColor = '#ccc';
+           //heading.insertAfter(myMsg);
+       //}
+       //myFunc();
+       
+    </script>
+    
+</body>
+</html>

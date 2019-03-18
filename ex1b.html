@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example 1 - js review</title>
+
+   <script>
+       document.write('Good morning world!');// method
+       document.bgColor='skyblue'; // property
+       //window.alert('You are on my site'); // method
+    </script>
+    
+</head>
+<body> 
+    <h1>Hello there</h1>
+    <a href="#" onClick='alert("You clicked")'>click me</a>
+    <h3 id="ex">Hover on me</h3>
+    <button id="newWin">New window</button>
+    
+   <script>
+       
+       // new window function
+       function openNewWin() {
+           open('http://google.com', '_blank', 'width=200, height=200, menubar=no');
+       }
+       
+       document.getElementById('newWin').addEventListener('click', openNewWin, false);
+
+    </script>
+    
+</body>
+</html>
